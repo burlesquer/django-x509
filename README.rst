@@ -1,8 +1,8 @@
 django-x509
 ===========
 
-.. image:: https://github.com/openwisp/django-x509/workflows/Django-x509%20Build/badge.svg?branch=master
-   :target: https://github.com/openwisp/django-x509/actions?query=workflow%3A"Django-x509+Build%22"
+.. image:: https://github.com/burlesquer/django-x509/workflows/Django-x509%20Build/badge.svg?branch=master
+   :target: https://github.com/burlesquer/django-x509/actions?query=workflow%3A"Django-x509+Build%22"
    :alt: CI build status
 
 .. image:: https://coveralls.io/repos/openwisp/django-x509/badge.svg
@@ -31,7 +31,7 @@ django-x509
 
 ------------
 
-.. image:: https://github.com/openwisp/django-x509/raw/master/docs/demo_x509.gif
+.. image:: https://github.com/burlesquer/django-x509/raw/master/docs/demo_x509.gif
    :alt: demo
 
 ------------
@@ -95,13 +95,13 @@ Install tarball:
 
 .. code-block:: shell
 
-    pip install https://github.com/openwisp/django-x509/tarball/master
+    pip install https://github.com/burlesquer/django-x509/tarball/master
 
 Alternatively you can install via pip using git:
 
 .. code-block:: shell
 
-    pip install -e git+git://github.com/openwisp/django-x509#egg=django-x509
+    pip install -e git+git://github.com/burlesquer/django-x509#egg=django-x509
 
 If you want to contribute, install your cloned fork:
 
@@ -357,8 +357,8 @@ which can be imported, extended and reused to create derivative apps.
 In order to implement your custom version of *django-x509*,
 you need to perform the steps described in this section.
 
-When in doubt, the code in the `test project <https://github.com/openwisp/django-x509/tree/master/tests/openwisp2/>`_
-and the `sample app <https://github.com/openwisp/django-x509/tree/master/tests/openwisp2/sample_x509/>`_
+When in doubt, the code in the `test project <https://github.com/burlesquer/django-x509/tree/master/tests/openwisp2/>`_
+and the `sample app <https://github.com/burlesquer/django-x509/tree/master/tests/openwisp2/sample_x509/>`_
 will serve you as source of truth:
 just replicate and adapt that code to get a basic derivative of
 *django-x509* working.
@@ -459,8 +459,8 @@ Add ``openwisp_utils.loaders.DependencyLoader`` to ``TEMPLATES`` in your ``setti
 
 Please refer to the following files in the sample app of the test project:
 
-- `sample_x509/__init__.py <https://github.com/openwisp/django-x509/tree/master/tests/openwisp2/sample_x509/__init__.py>`_.
-- `sample_x509/apps.py <https://github.com/openwisp/django-x509/tree/master/tests/openwisp2/sample_x509/apps.py>`_.
+- `sample_x509/__init__.py <https://github.com/burlesquer/django-x509/tree/master/tests/openwisp2/sample_x509/__init__.py>`_.
+- `sample_x509/apps.py <https://github.com/burlesquer/django-x509/tree/master/tests/openwisp2/sample_x509/apps.py>`_.
 
 You have to replicate and adapt that code in your project.
 
@@ -531,7 +531,7 @@ For more information, refer to the
 10. Create the admin
 ~~~~~~~~~~~~~~~~~~~~
 
-Refer to the `admin.py file of the sample app <https://github.com/openwisp/django-x509/tree/master/tests/openwisp2/sample_x509/admin.py>`_.
+Refer to the `admin.py file of the sample app <https://github.com/burlesquer/django-x509/tree/master/tests/openwisp2/sample_x509/admin.py>`_.
 
 To introduce changes to the admin, you can do it in two main ways which are described below.
 
@@ -580,7 +580,7 @@ monkey patching, you can proceed as follows:
 11. Create root URL configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Please refer to the `urls.py <https://github.com/openwisp/django-x509/tree/master/tests/openwisp2/urls.py>`_
+Please refer to the `urls.py <https://github.com/burlesquer/django-x509/tree/master/tests/openwisp2/urls.py>`_
 file in the test project.
 
 For more information about URL configuration in django, please refer to the
@@ -640,9 +640,9 @@ See `OpenWISP Support Channels <http://openwisp.org/support.html>`_.
 Changelog
 ---------
 
-See `CHANGES <https://github.com/openwisp/django-x509/blob/master/CHANGES.rst>`_.
+See `CHANGES <https://github.com/burlesquer/django-x509/blob/master/CHANGES.rst>`_.
 
 License
 -------
 
-See `LICENSE <https://github.com/openwisp/django-x509/blob/master/LICENSE>`_.
+See `LICENSE <https://github.com/burlesquer/django-x509/blob/master/LICENSE>`_.
